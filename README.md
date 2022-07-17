@@ -1,4 +1,4 @@
-# javaScript_problem_solving 
+# javaScript_problem_solving and program flowchart 
 (1) javaScript kelvin to Fahrenheit program 
 (2) javaScript average 3 number program 
 // (3) A force of 100 newtons is applied to a fixed object of mass 10 kg for 10 seconds. 
