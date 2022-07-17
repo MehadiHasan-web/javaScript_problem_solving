@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript problem solving</title>
+</head>
+<body>
+   
+<h2> Mehadi Hasan  javaScript problem solving  </h2>
+
+<script>
+
+
+
+//  (1) javaScript kelvin to Fahrenheit program 
+
+function kel(kel) {
+    var f = (kel * 9/5) - 459.67;
+    return f.toFixed(2);
+}
+kel();
+
+var a = 1.536545;
+document.write(a.toFixed(2));
+
+// (2) javaScript average 3 number program 
+
+function average(a,b,c) {
+    var sum = (a+b+c);
+    var average = (sum/3);
+    return average;
+}
+average();
+
+
+// (3) A force of 100 newtons is applied to a fixed object of mass 10 kg for 10 seconds. 
+// A. What is the acceleration when the force is applied?
+// B. What is the velocity after 10 seconds?
+// the answer A !
+
+function acceleration(force,mass) {
+    var f = force;
+    var m = mass;
+    var a = (f/m);
+    return a;
+}
+
+// the answer B 
+// var  acceleration = acceleration();
+function velocity(seconds, acceleration, InitialVelocity) {
+    var t = seconds;
+    var a = acceleration;
+    var u = InitialVelocity;
+    var v = u+a*t;
+    return v;
+}
+velocity();
+
+// (4) write javaScript program to find the third angle of a triangle if two angles are given. 
+
+  function thirdAngle(fastAngle,secondAngle) {
+    var ang1 = fastAngle;
+    var ang2 = secondAngle;
+    var ang3 = 180 - (ang1+ ang2);
+    return ang3;
+  }  
+
+thirdAngle();
+
+// (5) javaScript addition, subtraction , multiplication 
+// a. addition 
+function addition(num1,num2,num3){
+    var a = num1;
+    var b = num2;
+    var c = num3;
+    var sum = a + b + c;
+    return sum;
+}
+addition();
+
+// b. subtraction 
+function subtraction(num1,num2,num3){
+    var a = num1;
+    var b = num2;
+    var c = num3;
+    var x = a - b - c;
+    return x;
+}
+addition();
+
+// c. multiplication 
+function multiplication(num1,num2,num3){
+    var a = num1;
+    var b = num2;
+    var c = num3;
+    var x = a*b*c;
+    return x;
+}
+
+multiplication();
+
+</script>
+
+
+
+
+
+</body>
+</html>
